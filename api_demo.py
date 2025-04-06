@@ -12,5 +12,6 @@ def main():
     return response
 
 if __name__ == "__main__":
+    # 调用main函数
     result = main()
     print(result)
