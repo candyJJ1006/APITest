@@ -3,6 +3,7 @@ import requests
 
 
 def main():
+    # send a request
     url = "https://www.baidu.com"
     try:
         response = requests.get(url).text
