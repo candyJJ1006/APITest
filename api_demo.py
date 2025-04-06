@@ -3,7 +3,7 @@ import requests
 
 
 def main():
-    # 发送请求
+    # send a request
     url = "https://www.baidu.com"
     try:
         response = requests.get(url).text
@@ -15,3 +15,4 @@ if __name__ == "__main__":
     # 调用main函数
     result = main()
     print(result)
+    print("程序结束")
